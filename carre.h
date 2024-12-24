@@ -9,6 +9,10 @@ private:
     int cote; // Longueur du côté du carré
 
 public:
+    // Constructeurs
+    CCarre(); // Constructeur par défaut
+    CCarre(int sx1, int sy1, int cote1); // Constructeur paramétré
+
     // Méthodes pour modifier les valeurs des attributs
     void Setsx(int sx1); // Définir la val x
     void Setsy(int sy1); // Définir la val y
