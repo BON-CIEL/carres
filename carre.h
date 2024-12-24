@@ -24,4 +24,7 @@ public:
 
     // Méthode pour déplacer le carré avec une direction et un saut
     void Deplacer(char direction, int saut);
+
+    // Surcharge : déplacer le carré avec un vecteur dx, dy
+    void Deplacer(int dx, int dy);
 };
