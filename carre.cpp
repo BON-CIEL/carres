@@ -64,3 +64,11 @@ void CCarre::Deplacer(int dx, int dy) {
     sx += dx;
     sy += dy;
 }
+
+// Définition de l'opérateur <<
+std::ostream& operator<<(std::ostream& os, const CCarre& carre) {
+    os << "CCarre {sx: " << carre.sx
+        << ", sy: " << carre.sy
+        << ", cote: " << carre.cote << "}";
+    return os;
+}

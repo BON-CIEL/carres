@@ -27,4 +27,7 @@ public:
 
     // Surcharge : déplacer le carré avec un vecteur dx, dy
     void Deplacer(int dx, int dy);
+
+    // Surcharge de l'opérateur << pour afficher un carré
+    friend std::ostream& operator<<(std::ostream& os, const CCarre& carre);
 };
