@@ -21,4 +21,7 @@ public:
     int Getsx();
     int Getsy();
     int GetCote();
+
+    // Méthode pour déplacer le carré avec une direction et un saut
+    void Deplacer(char direction, int saut);
 };

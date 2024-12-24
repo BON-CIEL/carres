@@ -38,3 +38,23 @@ int CCarre::Getsy() {
 int CCarre::GetCote() {
     return cote;
 }
+
+// Déplace le carré en fonction de la direction et du saut
+void CCarre::Deplacer(char direction, int saut) {
+    switch (direction) {
+    case 'n': // Nord
+        sy -= saut;
+        break;
+    case 's': // Sud
+        sy += saut;
+        break;
+    case 'o': // Ouest
+        sx -= saut;
+        break;
+    case 'e': // Est
+        sx += saut;
+        break;
+    default:
+        cout << "Direction invalide!" << endl;
+    }
+}
