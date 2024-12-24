@@ -16,4 +16,9 @@ public:
 
     // Méthode pour afficher les caractéristiques du carré
     void Afficher();
+
+    // Méthodes pour récupérer les valeurs des attributs
+    int Getsx();
+    int Getsy();
+    int GetCote();
 };

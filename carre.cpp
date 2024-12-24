@@ -24,3 +24,17 @@ void CCarre::Afficher() {
     cout << "Sommet supérieur gauche (sx, sy): (" << sx << ", " << sy << ")" << endl;
     cout << "Longueur du côté: " << cote << " pixels" << endl;
 }
+
+int CCarre::Getsx() {
+    return sx;
+}
+
+// Retourne la valeur de sy
+int CCarre::Getsy() {
+    return sy;
+}
+
+// Retourne la longueur du côté du carré
+int CCarre::GetCote() {
+    return cote;
+}

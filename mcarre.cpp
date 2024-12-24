@@ -9,5 +9,5 @@ int main() {
 	c1.Setsx(1);
 	c1.Setsy(3);
 	c1.Setcote(5);
-	c1.Afficher();
+	cout << c1.Getsx() << " " << c1.Getsy() << " " << c1.GetCote() << endl;
 }
